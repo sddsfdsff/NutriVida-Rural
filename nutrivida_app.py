@@ -53,4 +53,5 @@ def contacto():
     """
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()  # Quitar debug=True en producción
+
